@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:05
-# @Author  : 侯
-# @File    : args_loader.py.py
-# @Software: PyCharm
 import argparse
 
 
