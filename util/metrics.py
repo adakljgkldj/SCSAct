@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:06
-# @Author  : 侯
-# @File    : metrics.py
-# @Software: PyCharm
 from __future__ import print_function
 import argparse
 import os
