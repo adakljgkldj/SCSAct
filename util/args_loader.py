@@ -31,7 +31,7 @@ def get_args():
     parser.add_argument('--gpu', default='1', type=str, help='gpu index')
     parser.add_argument('-b', '--batch-size', default=25, type=int, help='mini-batch size')
     parser.add_argument('--base-dir', default='output/ood_scores', type=str, help='result directory')
-    # 临时加了两个
+    
     parser.add_argument('--m', default=0)
     parser.add_argument('--n', default=0)
 
