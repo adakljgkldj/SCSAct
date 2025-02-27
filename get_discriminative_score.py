@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:11
-# @Author  : 侯
-# @File    : get_discriminative_score.py
-# @Software: PyCharm
-### 4.4 To get ID discriminative score
-
-
 import torch
 import os
 import argparse
