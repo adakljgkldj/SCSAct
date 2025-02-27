@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:05
-# @Author  : 侯
-# @File    : dataset_largescale.py
-# @Software: PyCharm
 from torch.utils.data import Dataset
 from PIL import Image
 import io
