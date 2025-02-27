@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2024/12/8 12:26
-# @Author  : 侯
-# @File    : compute_threshold.py
-# @Software: PyCharm
-# To get activations on the penultimate layer
 from __future__ import print_function
 import argparse
 import os
