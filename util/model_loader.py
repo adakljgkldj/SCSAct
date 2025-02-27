@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:06
-# @Author  : 侯
-# @File    : model_loader.py
-# @Software: PyCharm
 import os
 import torch
 def get_model(args, num_classes, load_ckpt=True):
