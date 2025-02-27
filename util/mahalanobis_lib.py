@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:06
-# @Author  : 侯
-# @File    : mahalanobis_lib.py
-# @Software: PyCharm
 from __future__ import print_function
 import torch
 import numpy as np
@@ -95,7 +90,7 @@ def sample_estimator(model, num_classes, feature_list, train_loader):
 
     print('\n Training Accuracy:({:.2f}%)\n'.format(100. * correct / total))
 
-    return sample_class_mean, precision #lr_weights和lr_bias那些呢？？
+    return sample_class_mean, precision 
 
 def get_Mahalanobis_score(inputs, model, num_classes, sample_mean, precision, num_output, magnitude):
 
