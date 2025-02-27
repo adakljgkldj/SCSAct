@@ -205,7 +205,6 @@ def get_loader_out(args, dataset=(''), config_type='default', split=('train', 'v
             val_ood_loader = torch.utils.data.DataLoader(
                 torchvision.datasets.ImageFolder('../autodl-fs/DDCS/datasets/ood_data/NCT-CRC-HE-100K', config.transform_test_largescale),
                 batch_size=config.batch_size, shuffle=True, **kwargs)
-        # NCT-CRC-HE-100K2 是缩减版的数据集
         elif val_dataset == 'NCT2':
             val_ood_loader = torch.utils.data.DataLoader(
                 torchvision.datasets.ImageFolder('../autodl-fs/DDCS/datasets/ood_data/NCT-CRC-HE-100K2', config.transform_test_largescale),
