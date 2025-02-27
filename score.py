@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:12
-# @Author  : 侯
-# @File    : score.py
-# @Software: PyCharm
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
