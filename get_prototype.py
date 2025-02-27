@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:11
-# @Author  : 侯
-# @File    : get_prototype.py
-# @Software: PyCharm
-### 4.1 To get ID prototypes
-# python get_prototype.py
 from __future__ import print_function
 import argparse
 import os
