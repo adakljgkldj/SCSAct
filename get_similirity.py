@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:12
-# @Author  : 侯
-# @File    : get_similirity.py
-# @Software: PyCharm
-### 4.2 To get inter-class ID similirity
-
 import numpy as np
 import torch
 
