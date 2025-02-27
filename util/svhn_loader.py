@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:06
-# @Author  : 侯
-# @File    : svhn_loader.py
-# @Software: PyCharm
 import torch.utils.data as data
 from PIL import Image
 import os
