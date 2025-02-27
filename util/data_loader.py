@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/13 9:05
-# @Author  : 侯
-# @File    : data_loader.py
-# @Software: PyCharm
 import os
 import torch
 import torchvision
